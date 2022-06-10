@@ -192,6 +192,7 @@ function EditListing() {
       setLoading(false)
       toast.error('Images not uploaded')
       return
+      console.log('git checking')
     })
 
     const formDataCopy = {
